@@ -25,11 +25,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         } catch (error) {
             const dataContainer = document.getElementById("api-data");
-            dataContainer.textContent ='Failed to fetch data';
+            dataContainer.textContent ='Failed to load user data.';
         }
     }
 
-    document.addEventListener("DOMContentLoaded", (event) => {
+    document.addEventListener("DOMContentLoaded", () => {
         fetchUserData();
     });
 });
