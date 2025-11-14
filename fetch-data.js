@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         } catch (error) {
             const dataContainer = document.getElementById("api-data");
-            dataContainer.innerHTML ='Failed to fetch data';
+            dataContainer.textContent ='Failed to fetch data';
         }
     }
 
